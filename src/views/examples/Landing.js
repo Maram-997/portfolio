@@ -85,9 +85,9 @@ class Landing extends React.Component {
                         <span>completed with examples</span>
                       </h1>
                       <p className="lead text-white">
-                        The design system comes with four pre-built pages to
-                        help you get started faster. You can change the text and
-                        images and you're good to go.
+                      The following projects were made using HTML, CSS and JavaScript.
+                      While I was trainee in ASAC to be Full-Stack developer
+
                       </p>
                       <div className="btn-wrapper">
                         <Button
@@ -145,17 +145,15 @@ class Landing extends React.Component {
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
                           <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
-                            <i className="ni ni-check-bold" />
+                            <i className="ni ni-cart" />
                           </div>
                           <h6 className="text-primary text-uppercase">
-                            Download Argon
+                            The Sport Store
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            It's a website to purchase your needs of spost items.
                           </p>
-                          <div>
+                          {/* <div>
                             <Badge color="primary" pill className="mr-1">
                               design
                             </Badge>
@@ -165,14 +163,14 @@ class Landing extends React.Component {
                             <Badge color="primary" pill className="mr-1">
                               creative
                             </Badge>
-                          </div>
+                          </div> */}
                           <Button
                             className="mt-4"
                             color="primary"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            href="https://sprort-store.github.io/spotrs-store/"
+                          
                           >
-                            Learn more
+                            Click to View
                           </Button>
                         </CardBody>
                       </Card>
@@ -184,14 +182,13 @@ class Landing extends React.Component {
                             <i className="ni ni-istanbul" />
                           </div>
                           <h6 className="text-success text-uppercase">
-                            Build Something
+                          Architect
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                           This webpage is example of a CSS Templte.
+                           But A FANCY one!
                           </p>
-                          <div>
+                          {/* <div>
                             <Badge color="success" pill className="mr-1">
                               business
                             </Badge>
@@ -201,14 +198,14 @@ class Landing extends React.Component {
                             <Badge color="success" pill className="mr-1">
                               success
                             </Badge>
-                          </div>
+                          </div> */}
                           <Button
                             className="mt-4"
                             color="success"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            href="https://maram-997.github.io/CSS-architect/"
+                            
                           >
-                            Learn more
+                            Click to View
                           </Button>
                         </CardBody>
                       </Card>
@@ -220,14 +217,12 @@ class Landing extends React.Component {
                             <i className="ni ni-planet" />
                           </div>
                           <h6 className="text-warning text-uppercase">
-                            Prepare Launch
+                            Bus Mall
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            This webpage Views a various Examles for handling and dealing with JavaScript.
                           </p>
-                          <div>
+                          {/* <div>
                             <Badge color="warning" pill className="mr-1">
                               marketing
                             </Badge>
@@ -237,14 +232,14 @@ class Landing extends React.Component {
                             <Badge color="warning" pill className="mr-1">
                               launch
                             </Badge>
-                          </div>
+                          </div> */}
                           <Button
                             className="mt-4"
                             color="warning"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            href="https://maram-997.github.io/BusMall/"
+                
                           >
-                            Learn more
+                            Click to View
                           </Button>
                         </CardBody>
                       </Card>
